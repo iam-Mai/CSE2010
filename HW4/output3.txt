@@ -1,0 +1,39 @@
+etClosestCustomer  none
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 0 0 0 1 5 
+n/a   Bob       0 0 1 1 0 0 0 0 0 0 
+n/a   Chad      0 0 0 0 3 2 4 0 0 0 
+n/a   Erica     0 0 3 4 5 2 1 4 0 0 
+n/a   Hallo     0 0 0 1 5 1 1 0 0 0 
+n/a   Jerry     0 0 0 0 0 0 5 5 0 0 
+RecommendSongs none
+RemoveCustomer Hallo
+AddCustomer Ted
+AddRating Ted 1 5
+AddRating Ted 0 5
+AddRating Ted 3 4
+AddRating Ted 2 1
+AddRating Jerry 1 5
+AddRating Jerry 2 5
+AddRating Jerry 9 5
+EditRating Ted 3 1
+AddRating Ted 2 5 existingRatingError
+RemoveRating Jerry 2 5
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 0 0 0 1 5 
+n/a   Bob       0 0 1 1 0 0 0 0 0 0 
+n/a   Chad      0 0 0 0 3 2 4 0 0 0 
+n/a   Erica     0 0 3 4 5 2 1 4 0 0 
+0.500 Jerry     0 5 0 0 0 0 5 5 0 5 
+0.500 Ted       5 5 1 1 0 0 0 0 0 0 
+EditRating Ted 0 1
+GetClosestCustomer  Jerry
+RemoveCustomer Jerry
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 0 0 0 1 5 
+n/a   Bob       0 0 1 1 0 0 0 0 0 0 
+n/a   Chad      0 0 0 0 3 2 4 0 0 0 
+n/a   Erica     0 0 3 4 5 2 1 4 0 0 
+2.500 Ted       1 5 1 1 0 0 0 0 0 0 
+GetClosestCustomer  Ted
+RecommendSongs none

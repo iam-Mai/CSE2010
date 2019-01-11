@@ -1,0 +1,13 @@
+GetClosestCustomer 
+PrintCustomerDistanceRatings
+RecommendSongs
+RemoveCustomer King
+AddCustomer Ted
+AddRating Ted 1 5
+AddRating Ted 0 5
+AddRating Ted 3 4
+EditRating Ted 3 5
+AddRating Ted 9 1
+RemoveRating Ted 9 1
+PrintCustomerDistanceRatings
+RecommendSongs 

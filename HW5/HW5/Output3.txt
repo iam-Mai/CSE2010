@@ -1,0 +1,39 @@
+DisplayAllEvents none
+AddEvent 1001 China success
+PrintSkipList
+(S1) empty
+(S0) 1001:China
+AddEvent 0211 Japan success
+AddEvent 0704 USA success
+AddEvent 0701 Canada success
+AddEvent 0714 France success
+DisplayEvent 0704 USA
+DeleteEvent 0714 success
+DisplayEventsBetweenDates 0201 0501 0211:Japan
+DisplayEventsFromStartDate 0701 0701:Canada 0704:USA 1001:China
+DisplayEventsToEndDate 0601 0211:Japan 
+DisplayAllEvents 0211:Japan 0701:Canada 0704:USA 1001:China
+AddEvent 1003 Germany success
+AddEvent 0517 Norway success
+AddEvent 0612 Russia success
+AddEvent 0907 Brazil success
+AddEvent 0602 Italy success
+AddEvent 0809 Singapore success
+DisplayEventsBetweenDates 0600 0700 0602:Italy 0612:Russia 
+PrintSkipList
+(S4) empty
+(S3) 0612:Russia
+(S2) 0612:Russia 0701:Canada
+(S1) 0211:Japan 0602:Italy 0612:Russia 0701:Canada 1003:Germany
+(S0) 0211:Japan 0517:Norway 0602:Italy 0612:Russia 0701:Canada 0704:USA 0809:Singapore 0907:Brazil 1001:China 1003:Germany
+DeleteEvent 0612 success
+PrintSkipList
+(S3) empty
+(S2) 0701:Canada
+(S1) 0211:Japan 0602:Italy 0701:Canada 1003:Germany
+(S0) 0211:Japan 0517:Norway 0602:Italy 0701:Canada 0704:USA 0809:Singapore 0907:Brazil 1001:China 1003:Germany
+AddEvent 0907 Thai existingDateError
+DisplayEventsBetweenDates 0101 0210  none
+DisplayEventsFromStartDate 1200  none
+DisplayEventsToEndDate 0101  none
+DeleteEvent 0101 noDateError

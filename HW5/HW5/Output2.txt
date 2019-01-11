@@ -1,0 +1,37 @@
+AddEvent 0501 concert success
+AddEvent 0409 breakfast success
+AddEvent 0520 lunch success
+AddEvent 0610 dinner success
+AddEvent 0410 charity success
+DisplayEvent 0410 charity
+DeleteEvent 0409 success
+DisplayEventsBetweenDates 0310 0501 0410:charity 0501:concert
+DisplayEventsFromStartDate 0601 0610:dinner
+DisplayEventsToEndDate 0601 0410:charity 0501:concert 0520:lunch
+DisplayAllEvents 0410:charity 0501:concert 0520:lunch 0610:dinner
+AddEvent 1225 christmas success
+AddEvent 1124 thanksgiving success
+AddEvent 1125 black_friday success
+AddEvent 0101 new_year success
+AddEvent 0310 spring success
+DisplayEventsBetweenDates 1101 1201 1124:thanksgiving 1125:christmas
+AddEvent 1202 winter success
+AddEvent 0522 summer success
+AddEvent 1001 fall success
+AddEvent 0704 independence_day success
+AddEvent 1212 exam success
+AddEvent 0327 easter success
+AddEvent 0125 bowling success
+AddEvent 1014 homecoming success
+AddEvent 0901 conference success
+AddEvent 1108 election success
+AddEvent 0415 beach_trip success
+DeleteEvent 0610 success
+AddEvent 0610 universal success
+PrintSkipList
+(S5) empty
+(S4) 0327:easter
+(S3) 0327:easter 1125:black_friday 
+(S2) 0327:easter 0522:summer 1108:election 1125:black_friday 
+(S1) 0310:spring 0327:easter 0522:summer 0610:universal 0704:independence_day 1014:homecomming 1108:election 1125:black_friday 1225:christmas
+(S0) 0101:new_year 0125:bowling 0310:spring 0327:easter 0410:charity 0415:beach_trip 0501:concert 0520:lunch 0522:summer 0610:universal 0704:independence_day 0901:conference 1001:fall 1014:homecomming 1108:election 1124:thanksgiving 1125:black_friday 1202:winter 1212:exam 1225:christmas

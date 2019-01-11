@@ -1,0 +1,25 @@
+GetClosestCustomer 
+PrintCustomerDistanceRatings
+RecommendSongs
+RemoveCustomer King
+AddCustomer Mai
+AddRating Mai 0 5
+AddRating Mai 1 5
+AddRating Mai 2 4
+AddRating Mai 3 4
+AddRating Mai 4 4
+AddRating Mai 5 2
+AddRating Mai 8 4
+AddRating Mai 9 5
+EditRating Mai 5 5 
+RemoveRating Zed 0
+RemoveRating Zed 1
+PrintCustomerDistanceRatings
+GetClosestCustomer
+RecommendSongs 
+EditRating Bell 8 1
+PrintCustomerDistanceRatings
+GetClosestCustomer
+RecommendSongs
+AddRating Mai 4 3
+AddCustomer David

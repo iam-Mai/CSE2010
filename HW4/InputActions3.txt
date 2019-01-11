@@ -1,0 +1,22 @@
+GetClosestCustomer 
+PrintCustomerDistanceRatings
+RecommendSongs
+RemoveCustomer Hallo
+AddCustomer Ted
+AddRating Ted 1 5
+AddRating Ted 0 5
+AddRating Ted 3 4
+AddRating Ted 2 1
+AddRating Jerry 1 5
+AddRating Jerry 2 5
+AddRating Jerry 9 5
+EditRating Ted 3 1
+AddRating Ted 2 5
+RemoveRating Jerry 2
+PrintCustomerDistanceRatings
+EditRating Ted 0 1
+GetClosestCustomer
+RemoveCustomer Jerry
+PrintCustomerDistanceRatings
+GetClosestCustomer
+RecommendSongs

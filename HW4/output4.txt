@@ -1,0 +1,55 @@
+GetClosestCustomer  Newton
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 4 0 0 1 5 
+3.250 Alice     1 4 4 2 3 1 1 3 5 0 
+1.200 Bell      5 5 4 5 4 4 5 2 5 4 
+2.000 Chad      0 0 0 0 3 2 4 0 4 5 
+2.000 David     2 0 3 3 4 4 4 5 4 4 
+2.500 Gary      3 0 1 1 4 3 2 3 3 1 
+1.600 King      5 5 5 5 1 1 2 2 2 2 
+1.000 Newton    0 0 2 2 4 4 3 2 2 0 
+n/a   Opera     0 0 4 5 5 0 3 3 0 0 
+1.667 Zed       3 3 2 5 1 0 0 0 1 0 
+RecommendSongs Newton 4 4
+RemoveCustomer King
+AddCustomer Mai
+AddRating Mai 0 5
+AddRating Mai 1 5
+AddRating Mai 2 4
+AddRating Mai 3 4
+AddRating Mai 4 4
+AddRating Mai 5 2
+AddRating Mai 8 4
+AddRating Mai 9 5
+EditRating Mai 5 5
+RemoveRating Zed 0 3
+RemoveRating Zed 1 3
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 4 0 0 1 5 
+3.250 Alice     1 4 4 2 3 1 1 3 5 0 
+1.200 Bell      5 5 4 5 4 4 5 2 5 4 
+2.000 Chad      0 0 0 0 3 2 4 0 4 5 
+2.000 David     2 0 3 3 4 4 4 5 4 4 
+2.500 Gary      3 0 1 1 4 3 2 3 3 1 
+1.000 Mai       5 5 4 4 4 5 0 0 4 5 
+1.000 Newton    0 0 2 2 4 4 3 2 2 0 
+n/a   Opera     0 0 4 5 5 0 3 3 0 0 
+1.000 Zed       0 0 2 5 1 0 0 0 1 0 
+GetClosestCustomer  Mai Newton Zed
+RecommendSongs Mai 2 4 3 4 4 4, Newton 4 4, Zed 3 5
+EditRating Bell 8 1
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 4 0 0 1 5 
+3.250 Alice     1 4 4 2 3 1 1 3 5 0 
+0.400 Bell      5 5 4 5 4 4 5 2 1 4 
+2.000 Chad      0 0 0 0 3 2 4 0 4 5 
+2.000 David     2 0 3 3 4 4 4 5 4 4 
+2.500 Gary      3 0 1 1 4 3 2 3 3 1 
+1.000 Mai       5 5 4 4 4 5 0 0 4 5 
+1.000 Newton    0 0 2 2 4 4 3 2 2 0 
+n/a   Opera     0 0 4 5 5 0 3 3 0 0 
+1.000 Zed       0 0 2 5 1 0 0 0 1 0 
+GetClosestCustomer  Bell
+RecommendSongs Bell 3 5 6 5
+AddRating Mai 4 3 existingRatingError
+AddCustomer David existingCustomerError

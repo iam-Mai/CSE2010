@@ -1,0 +1,53 @@
+GetClosestCustomer  King
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 0 0 0 1 5 
+3.333 Alice     1 4 4 2 3 1 1 3 5 0 
+3.000 Bob       4 1 1 1 0 0 0 0 0 0 
+2.000 Chad      0 0 0 0 3 2 4 0 4 5 
+2.667 David     2 0 3 3 4 4 4 5 4 4 
+2.250 Erica     5 2 3 4 5 2 1 4 5 4 
+2.000 Frank     0 2 2 3 3 3 2 2 0 5 
+3.000 Gary      3 0 1 1 4 3 2 3 3 1 
+n/a   Hallo     0 0 0 1 5 1 1 0 0 0 
+2.500 Ian       0 0 0 0 1 3 1 1 5 5 
+3.000 Jerry     2 1 0 0 0 0 5 5 1 1 
+1.250 King      5 5 5 5 1 1 2 2 2 2 
+3.000 Lee       3 2 2 2 1 1 1 1 0 0 
+2.333 Michael   0 4 2 1 1 4 5 3 2 1 
+2.000 Newton    0 0 2 2 4 4 3 2 2 0 
+3.333 Opera     1 1 4 5 5 3 3 3 2 0 
+2.250 Pat       2 2 1 4 1 1 4 4 3 5 
+3.333 Queen     2 3 4 5 2 2 1 1 0 1 
+3.667 Sam       2 1 1 1 4 4 4 4 0 2 
+1.667 Zed       3 3 2 5 1 0 0 0 1 0 
+RecommendSongs King 2 5 3 5
+RemoveCustomer King
+AddCustomer Ted
+AddRating Ted 1 5
+AddRating Ted 0 5
+AddRating Ted 3 4
+EditRating Ted 3 5
+AddRating Ted 9 1
+RemoveRating Ted 9 1
+PrintCustomerDistanceRatings
+      Mark      5 5 0 0 0 0 0 0 1 5 
+3.333 Alice     1 4 4 2 3 1 1 3 5 0 
+3.000 Bob       4 1 1 1 0 0 0 0 0 0 
+2.000 Chad      0 0 0 0 3 2 4 0 4 5 
+2.667 David     2 0 3 3 4 4 4 5 4 4 
+2.250 Erica     5 2 3 4 5 2 1 4 5 4 
+2.000 Frank     0 2 2 3 3 3 2 2 0 5 
+3.000 Gary      3 0 1 1 4 3 2 3 3 1 
+n/a   Hallo     0 0 0 1 5 1 1 0 0 0 
+2.500 Ian       0 0 0 0 1 3 1 1 5 5 
+3.000 Jerry     2 1 0 0 0 0 5 5 1 1 
+3.000 Lee       3 2 2 2 1 1 1 1 0 0 
+2.333 Michael   0 4 2 1 1 4 5 3 2 1 
+2.000 Newton    0 0 2 2 4 4 3 2 2 0 
+3.333 Opera     1 1 4 5 5 3 3 3 2 0 
+2.250 Pat       2 2 1 4 1 1 4 4 3 5 
+3.333 Queen     2 3 4 5 2 2 1 1 0 1 
+3.667 Sam       2 1 1 1 4 4 4 4 0 2 
+0.500 Ted       5 5 0 5 0 0 0 0 0 0 
+1.667 Zed       3 3 2 5 1 0 0 0 1 0 
+RecommendSongs Ted 3 5

@@ -1,0 +1,15 @@
+ 01234
+0##0##
+1#   #
+2##  #
+3#AB #
+4##*##
+Player 0, please enter your move [u(p), d(own), l(elf), or r(ight)]: d
+ 01234
+0## ##
+1# 0 #
+2##  #
+3#AB #
+4##*##
+Creature A : No shortest path
+Creature B: u 2 (3,2) (2,2) (1,2) 

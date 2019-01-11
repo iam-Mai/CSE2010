@@ -1,0 +1,31 @@
+AddEvent 0501 concert
+AddEvent 0409 breakfast
+AddEvent 0520 lunch
+AddEvent 0610 dinner
+AddEvent 0410 charity
+DisplayEvent 0410
+DeleteEvent 0409
+DisplayEventsBetweenDates 0310 0501
+DisplayEventsFromStartDate 0601
+DisplayEventsToEndDate 0601
+DisplayAllEvents
+AddEvent 1225 christmas
+AddEvent 1124 thanksgiving
+AddEvent 1125 black_friday
+AddEvent 0101 new_year
+AddEvent 0310 spring
+DisplayEventsBetweenDates 1101 1201
+AddEvent 1202 winter
+AddEvent 0522 summer
+AddEvent 1001 fall
+AddEvent 0704 independence_day
+AddEvent 1212 exam
+AddEvent 0327 easter
+AddEvent 0125 bowling
+AddEvent 1014 homecoming
+AddEvent 0901 conference
+AddEvent 1108 election
+AddEvent 0415 beach_trip
+DeleteEvent 0610
+AddEvent 0610 universal
+PrintSkipList

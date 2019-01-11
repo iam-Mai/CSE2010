@@ -1,0 +1,12 @@
+GetClosestCustomer
+RecommendSongs
+RemoveCustomer Eric
+PrintCustomerDistanceRatings
+AddCustomer Paul
+AddRating Paul 8 3
+AddRating Paul 5 3
+AddRating Paul 6 3
+EditRating Jerald 1 3
+RemoveRating Chad 4
+PrintCustomerDistanceRatings
+RecommendSongs

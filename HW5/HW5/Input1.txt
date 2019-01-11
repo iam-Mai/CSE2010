@@ -1,0 +1,19 @@
+AddEvent 1001 China 
+AddEvent 0211 Japan 
+AddEvent 0704 USA   
+AddEvent 0701 Canada 
+AddEvent 0714 France 
+DisplayEvent 0704 
+DeleteEvent 0714 
+DisplayEventsBetweenDates 0201 0501 
+DisplayEventsFromStartDate 0701 
+DisplayEventsToEndDate 0601 
+DisplayAllEvents 
+AddEvent 1003 Germany 
+AddEvent 0517 Norway 
+AddEvent 0612 Russia 
+AddEvent 0907 Brazil 
+AddEvent 0602 Italy 
+AddEvent 0809 Singapore 
+DisplayEventsBetweenDates 0600 0700 
+PrintSkipList
